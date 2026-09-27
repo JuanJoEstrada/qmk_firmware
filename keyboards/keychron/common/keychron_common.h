@@ -16,10 +16,10 @@
 
 #pragma once
 
-#include "stdint.h"
-#ifdef VIA_ENABLE
-#    include "via.h"
-#endif
+#include <stdint.h>
+#include <stdbool.h>
+#include "action.h"
+
 #include "quantum_keycodes.h"
 
 enum custom_keycodes {
